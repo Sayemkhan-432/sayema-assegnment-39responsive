@@ -1,0 +1,238 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.clearfix::after{
+    display: block;
+    content: "";
+    clear: both;
+}
+/* .left{
+    float: left;
+}
+.right{
+    float: right;
+} */
+
+.text_right{
+    text-align: right;
+}
+.text_center{
+    text-align: center;
+}
+img{
+    max-width: 100%;
+}
+.container{
+    width: 1200px;
+    margin: auto;
+}
+a{
+    text-decoration: none;
+    display: inline-block;
+}
+
+/* HDER SECTION */
+
+.header_section{
+background: #22c3a3;
+padding: 20px;
+}
+.heder_left{
+    float: left;
+    width: 35%;
+}
+
+.heder_left h1 {
+	color: white;
+	line-height: 60px;
+	font-size: 38px;
+	font-weight: 500;
+}
+
+.heder_right{
+    float: right;
+    width: 60%;
+}
+.heder_right ul{}
+.heder_right ul li {
+    display: inline-block;
+}
+.heder_right ul li a {
+    color: white;
+    padding: 0 25px;
+    display: inline-block;
+    line-height: 60px;
+    transition: .5s;
+}
+.heder_right ul li a:hover {
+	background: #16a085;
+}
+
+/* BANNER SECTION */
+
+.banner_section{
+    
+    background: url(https://i.ibb.co/6tHfW3f/assfignmentj.png?fbclid=IwAR3YJnG7yianA_J1mb1SsN3FyrVu3mv92NyNjLUI9rRoePkssaaCYtr1kSU) no-repeat center center;
+    background-size: cover;
+    padding: 200px 0;
+}
+.banner_section h1 {
+    color: white;
+    font-size: 40px;
+    font-weight: 500;
+}
+.banner_section P {
+    color: white;
+    font-size: 19px;
+    margin-top: 28px;
+}
+
+.banner_section span {
+    background: #22c3a3;
+    border: 1px solid white;
+    padding: 10px 15px;
+    color: white;
+    margin-top: 10px;
+}
+.banner_section span a{
+    text-decoration: none;
+    display: inline-block;
+    color: white;
+    margin-top: 60px;
+}
+.banner_section span:hover{
+    background: orange;
+}
+
+/* our servise */
+.our_servise {
+    margin-top: 45px;
+}
+.our_servise h2 {
+    font-size: 40px;
+    font-weight: 500;
+}
+.our_servise p {
+    padding-top: 20px;
+    color: #9a8e92;
+}
+
+.blog_item {
+    float: left;
+    width: 24%;
+    margin-top: 65px;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.blog_item h3 {
+    padding-top: 20px;
+    font-size: 30px;
+    font-weight: 500;
+}
+.our_servise p {
+    padding-top: 20px;
+    color: #9a8e92;
+}
+
+.blog_item span {
+    color: #0dbf9b;
+    font-size: 40px;
+}
+.servise_item {
+    border-bottom: 3px solid #0dbf9b;
+    padding-bottom: 80px;
+}
+
+/* about section */
+
+
+.about_section{
+    margin-top: 40px;
+}
+.about_section h1 {
+    font-weight: 500;
+}
+.about_section p {
+    padding-top: 10px;
+    color: ;
+}
+.about_section2{
+    margin-top: 40px;
+}
+.about_section_left{
+    float: left;
+    width: 30%;
+}
+.about_section_left img{}
+
+.about_section_right{
+    float: right;
+    width: 65%;
+}
+.about_section_right h2 {
+    text-align: left;
+    font-weight: 400;
+    font-size: 20px;
+}
+.about_section_right p{
+    text-align: left;
+}
+
+/* contact us  */
+
+.contact_us {
+    background: #f6f6f6;
+    padding: 40px;
+    margin-top: 60px;
+}
+ .contact_us h3{
+    font-size: 40px;
+    font-weight: 500;
+}
+.contact_us p {
+    padding-top: 30px;
+    color: #9998ab;
+}
+
+.contact2{
+
+    margin-top: 60px;
+}
+.content_item {
+    float: left;
+    width: 32%;
+    color: #0dbf9b;
+    font-size: 20px;
+}
+
+
+/* footer */
+.footer_section{
+    background:#0dbf9b ;
+    padding: 20px;
+}
+.footer_section ul {
+    text-align: center;
+}
+.footer_section ul li{
+    display: inline-block;
+}
+.footer_section ul li a {
+    color: white;
+    padding: 9px 15px;
+    transition: .5s;
+    display: inline-block;
+}
+.footer_section ul li a:hover{
+    background: #000;
+}
+
+.footer2{
+    background: #000;
+    padding: 15px;
+}
+.footer2 p{
+    color: white;
+}
